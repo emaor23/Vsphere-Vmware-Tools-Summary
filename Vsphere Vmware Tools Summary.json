@@ -3,7 +3,7 @@
       "autoswitchEnabled": false,
       "columnCount": 1,
       "columnProportion": "1-1",
-      "creationTime": 1541782545693,
+      "creationTime": 1565631680317,
       "description": "Vsphere - Vmware Tools Summary",
       "disabled": false,
       "gridsterMaxColumns": 12,
@@ -16,65 +16,36 @@
       "locked": false,
       "name": "Operations Performance/Vsphere - Vmware Tools Summary",
       "namePath": "Operations Performance",
-      "rank": 94,
+      "rank": 77,
       "shared": false,
+      "states": [],
       "temporary": false,
-      "userId": "d78b75ee-4faa-4f03-aa33-e716b473105a",
+      "userId": "7ac7f730-ae98-403e-8b44-9de1d0c34056",
+      "widgetInteractions": [],
       "widgets": [
          {
             "collapsed": false,
             "config": {
                "chartViewItems": [
                   "legend",
-                  "labels"
+                  "labels",
+                  "title"
                ],
+               "isUpdatedView": true,
                "refreshContent": {"refreshContent": false},
                "refreshInterval": 300,
                "resource": {
-                  "adapterKindId": "VMWARE",
-                  "allowDrag": true,
-                  "allowDrop": true,
-                  "checked": null,
-                  "children": null,
-                  "cls": "",
-                  "depth": 1,
-                  "expandable": true,
-                  "expanded": false,
-                  "href": "",
-                  "hrefTarget": "",
-                  "icon": "",
-                  "iconCls": "resknd_default_vmware_vsphereworld",
-                  "iconSrc": "images/resknd/default/16x16/VMWARE_vSphere World.png",
-                  "id": "86771af4-3f18-4dd2-b810-147b80620f5f",
-                  "index": 0,
-                  "isFirst": true,
-                  "isLast": true,
-                  "leaf": false,
-                  "loaded": false,
-                  "loading": false,
-                  "nodeType": "resource",
-                  "parentId": "source",
-                  "qshowDelay": 0,
-                  "qtip": "",
-                  "qtitle": "",
+                  "id": "Ext.vcops.chrome.model.Resource-14",
                   "resourceId": "resource:id:0_::_",
                   "resourceKindId": "002006VMWAREvSphere World",
-                  "resourceKindKey": "vSphere World",
-                  "resourceKindName": "vSphere World",
-                  "resourceKindType": 8,
                   "resourceName": "vSphere World",
-                  "root": false,
-                  "rootResourceId": "86771af4-3f18-4dd2-b810-147b80620f5f",
-                  "text": "vSphere World",
-                  "traversalSpecId": "vSphere Hosts and Clusters-VMWARE-vSphere World",
-                  "uniqueId": "86771af4-3f18-4dd2-b810-147b80620f5f_1541782936757",
-                  "visible": true
+                  "traversalSpecId": "vSphere Hosts and Clusters-VMWARE-vSphere World"
                },
                "selectFirstRow": {"selectFirstRow": false},
                "selfProvider": {"selfProvider": true},
                "title": "Vmware Tools on Virtual machine",
                "traversalSpecId": null,
-               "viewDefinitionId": "bf66b320-3bf9-4bf7-9b62-6f9bf77acb10"
+               "viewDefinitionId": "6d6eaa6b-bba8-4b82-8e7a-b418540c6c62"
             },
             "gridsterCoords": {
                "h": 6,
@@ -282,57 +253,22 @@
          {
             "collapsed": false,
             "config": {
-               "chartViewItems": [
-                  "legend",
-                  "labels"
-               ],
+               "chartViewItems": ["labels"],
+               "isUpdatedView": true,
                "refreshContent": {"refreshContent": false},
                "refreshInterval": 300,
                "resource": {
-                  "adapterKindId": "VMWARE",
-                  "allowDrag": true,
-                  "allowDrop": true,
-                  "checked": null,
-                  "children": null,
-                  "cls": "",
-                  "depth": 1,
-                  "expandable": true,
-                  "expanded": false,
-                  "href": "",
-                  "hrefTarget": "",
-                  "icon": "",
-                  "iconCls": "resknd_default_vmware_vsphereworld",
-                  "iconSrc": "images/resknd/default/16x16/VMWARE_vSphere World.png",
-                  "id": "86771af4-3f18-4dd2-b810-147b80620f5f",
-                  "index": 0,
-                  "isFirst": true,
-                  "isLast": true,
-                  "leaf": false,
-                  "loaded": false,
-                  "loading": false,
-                  "nodeType": "resource",
-                  "parentId": "source",
-                  "qshowDelay": 0,
-                  "qtip": "",
-                  "qtitle": "",
+                  "id": "Ext.vcops.chrome.model.Resource-13",
                   "resourceId": "resource:id:0_::_",
                   "resourceKindId": "002006VMWAREvSphere World",
-                  "resourceKindKey": "vSphere World",
-                  "resourceKindName": "vSphere World",
-                  "resourceKindType": 8,
                   "resourceName": "vSphere World",
-                  "root": false,
-                  "rootResourceId": "86771af4-3f18-4dd2-b810-147b80620f5f",
-                  "text": "vSphere World",
-                  "traversalSpecId": "vSphere Hosts and Clusters-VMWARE-vSphere World",
-                  "uniqueId": "86771af4-3f18-4dd2-b810-147b80620f5f_1541782865706",
-                  "visible": true
+                  "traversalSpecId": "vSphere Hosts and Clusters-VMWARE-vSphere World"
                },
                "selectFirstRow": {"selectFirstRow": false},
                "selfProvider": {"selfProvider": true},
-               "title": "VMware Tools Version Distribution",
+               "title": "VMware Tools Version on VMs",
                "traversalSpecId": null,
-               "viewDefinitionId": "bc5a593d-6b97-4995-8265-1d0f55e29bba"
+               "viewDefinitionId": "f1474ada-0abe-4e6b-937a-ec4e7d82e420"
             },
             "gridsterCoords": {
                "h": 6,
@@ -342,7 +278,7 @@
             },
             "height": 324,
             "id": "6d2ca677-27ad-43c9-a344-9bdb1f30a773",
-            "title": "VMware Tools Version Distribution",
+            "title": "VMware Tools Version on VMs",
             "type": "View"
          }
       ]
@@ -354,5 +290,5 @@
       "name": "vSphere World",
       "resourceKindKey": "vSphere World"
    }]},
-   "uuid": "865e8aa3-6ed1-46ef-85e7-db13746a3b3b"
+   "uuid": "633eca42-06d0-42fc-930e-b3606c1c1764"
 }
