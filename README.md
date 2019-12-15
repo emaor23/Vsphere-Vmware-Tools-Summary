@@ -4,7 +4,6 @@
 
 VMware vRealize Operation 7.X or 8.X
 
-```
 This dashboard was created in vROps 7.5
  
 Dashboard that show you summary of Vmware tools Status , State and Inventory.
