@@ -3,16 +3,20 @@
 ### Prerequisites
 
 VMware vRealize Operation 7.X or 8.X
-
-This dashboard was created in vROps 7.5
  
 Dashboard that show you summary of Vmware tools Status , State and Inventory.
 
-Dashboards -> Actions -> Manage Dashboard -> Import  "Vsphere Vmware Tools Summary.json"
+Dashboards -> Actions -> Manage Dashboard -> Import  "dashboard-Operations-VMware-Tools-Summary.zip"
 
-Views -> Import -> "Operations - Vsphere Vmware Tools Summary.zip"
+Views -> Import -> "Operations VMware Tools Version distrib bar.zip"
 
-Views -> Import -> "VMware Tools Version on VMs Bar.zip"
+Views -> Import -> "Operations VMware Tools Running Distrub state.zip"
+
+Views -> Import -> "Operations VMware Tools Running Distrub status.zip"
+
+Views -> Import -> "Operations VMware Tools Not Running.zip"
+
+Views -> Import -> "Operations  VMware Tools Summary.zip"
 
 ## Authors
 
